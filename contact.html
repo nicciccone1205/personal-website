@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
+    <title>Document</title>
     <style>
         body {
             background-color: #e5e5f7;
@@ -23,7 +23,7 @@
         h2 {
             background-color:lightgrey;
             border: 5px solid black;
-            margin: 5px;
+            margin: 10px;
             width: fit-content;
         }
         img {
@@ -44,15 +44,19 @@
         <a href="./portfolio.html">Portfolio</a>
     </div>
     <br />
-    <header class="nav"><h1>My Work</h1></header>
-    <article>
-    <p>Here is a sampling of some of my work.</p>
-    <div class="container">
-        <div><a href="https://www.youtube.com/watch?v=Y3lR4nLW1vo">My reconstruction of Orson Welles's TOO MUCH JOHNSON movies.</a></div>
-        <div><a href="https://www.youtube.com/watch?v=KJ5O5Thkrcg">A video I made for my friends in Pride 2019.</a></div>
-        <div><a href="https://www.youtube.com/watch?v=QkVa7f-5Dec">My edit of a segment of Welles's IT'S ALL TRUE.</a></div>
-        <div><a href="https://brightlightsfilm.com/mysteries-of-the-deep-the-making-and-unmaking-of-orson-welless-dead-reckoning/">An article I wrote on Welles's THE DEEP.</a></div>
-    </div>
-</article>
+    <header class="nav"><h1>Let's Keep In Contact!</h1></header>
+    <br />
+    <form action="./contact-form-submitted.html">
+    <label for="fname">First name:</label>
+    <input type="text" name="fname" id="fname" /><br />
+    <label for="lname">Last name:</label>
+    <input type="text" name="lname" id="lname" /><br />
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" /><br />
+    <label for="cellNumber">Phone:</label>
+    <input type="number" id="cellNumber" name="cellNumber" />
+    <br />
+    <input type="submit" value="Submit" />
+</form>
 </body>
 </html>
